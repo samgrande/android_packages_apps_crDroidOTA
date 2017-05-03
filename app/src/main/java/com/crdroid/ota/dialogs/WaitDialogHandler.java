@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.resurrection.ota.dialogs;
+package com.crdroid.ota.dialogs;
 
 import android.app.Activity;
 import android.app.Fragment;

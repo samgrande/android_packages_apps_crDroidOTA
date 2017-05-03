@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.resurrection.ota.configs;
+package com.crdroid.ota.configs;
 
 import android.content.Context;
 
-import com.resurrection.ota.xml.OTALink;
-import com.resurrection.ota.xml.OTAParser;
-import com.resurrection.ota.utils.OTAUtils;
+import com.crdroid.ota.xml.OTALink;
+import com.crdroid.ota.xml.OTAParser;
+import com.crdroid.ota.utils.OTAUtils;
 
 import org.json.JSONArray;
 import org.json.JSONException;

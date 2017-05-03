@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.resurrection.ota.fragments;
+package com.crdroid.ota.fragments;
 
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
@@ -25,14 +25,14 @@ import android.preference.PreferenceCategory;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceScreen;
 
-import com.resurrection.ota.R;
-import com.resurrection.ota.configs.AppConfig;
-import com.resurrection.ota.configs.LinkConfig;
-import com.resurrection.ota.configs.OTAVersion;
-import com.resurrection.ota.dialogs.WaitDialogFragment;
-import com.resurrection.ota.tasks.CheckUpdateTask;
-import com.resurrection.ota.utils.OTAUtils;
-import com.resurrection.ota.xml.OTALink;
+import com.crdroid.ota.R;
+import com.crdroid.ota.configs.AppConfig;
+import com.crdroid.ota.configs.LinkConfig;
+import com.crdroid.ota.configs.OTAVersion;
+import com.crdroid.ota.dialogs.WaitDialogFragment;
+import com.crdroid.ota.tasks.CheckUpdateTask;
+import com.crdroid.ota.utils.OTAUtils;
+import com.crdroid.ota.xml.OTALink;
 
 import java.util.List;
 
