@@ -17,9 +17,9 @@ device_name=ro.crdroid.device
 # A version source can be a 'property key' from build.prop or a 'uname -r' command line
 # If a version is a number, leave the version_format empty. Otherwise, provide the date format
 #
-# Example with a property key 'ro.crdroid.version' : Parse the date 20170503 from 'crDroidAndroid-7.1.2-20170503-herolte-v3.0.zip'
+# Example with a property key 'ro.crdroid.display.version' : Parse the date 20170503 from 'crDroidAndroid-7.1.2-20170503-herolte-v3.0.zip'
 #
-# Version source: ro.crdroid.version
+# Version source: ro.crdroid.display.version
 # Version delimiter: -
 # Version position: 2 (zero based)
 # Version format: yyyyMMdd
@@ -33,7 +33,7 @@ device_name=ro.crdroid.device
 #
 # uname -r will only be needed if using the app for kernels, not required here
 
-version_source=ro.crdroid.version
+version_source=ro.crdroid.display.version
 version_delimiter=-
 version_position=2
 version_format=yyyyMMdd

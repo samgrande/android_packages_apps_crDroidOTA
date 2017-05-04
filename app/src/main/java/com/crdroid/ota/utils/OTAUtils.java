@@ -36,7 +36,7 @@ import java.util.Properties;
 
 public final class OTAUtils {
 
-    private static final String TAG = "SlimOTA";
+    private static final String TAG = "crDroidOTA";
     private static final boolean DEBUG = true;
 
     private static final String BUILD_PROP = "/system/build.prop";
